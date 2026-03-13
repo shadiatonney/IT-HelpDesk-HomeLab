@@ -37,6 +37,11 @@ lsb_release -a
 ```
 
 ---
+## Verification
+
+The Ubuntu server was successfully deployed inside a VirtualBox virtual machine.  
+Network configuration was validated using the `ip a` command, and internet connectivity was verified using `ping google.com`.  
+The server successfully received responses from external hosts with 0% packet loss.
 
 ## Screenshots
 
@@ -61,3 +66,5 @@ The Ubuntu Server installation was verified using the `lsb_release -a` command. 
 ![Internet Connectivity](./images/internet-connectivity.png)
 
 *Figure 3: Successful internet connectivity verification using `ping google.com`. The server receives replies from external hosts with 0% packet loss.*
+
+
