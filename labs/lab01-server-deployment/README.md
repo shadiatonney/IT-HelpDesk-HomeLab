@@ -47,7 +47,7 @@ The server successfully received responses from external hosts with 0% packet lo
 
 ### Ubuntu Installation Verification
 
-![Ubuntu Installation](./images/ubuntu-install.png)
+<img src="./images/ubuntu-install.png" width="700">
 
 *Figure 1: Ubuntu Server running in VirtualBox after installation. The `lsb_release -a` command confirms the operating system version.*
 
@@ -56,14 +56,14 @@ The Ubuntu Server installation was verified using the `lsb_release -a` command. 
 
 ### Network Configuration Verification
 
-![Network Configuration](./images/network-config.png)
+<img src="./images/network-config.png" width="700">
 
 *Figure 2: Output of the `ip a` command showing the active network interface (enp0s8) and assigned IP address (10.0.2.15) from the NAT network.*
 
 
 ### Internet Connectivity Test
 
-![Internet Connectivity](./images/internet-connectivity.png)
+<img src="./images/internet-connectivity.png" width="700">
 
 *Figure 3: Successful internet connectivity verification using `ping google.com`. The server receives replies from external hosts with 0% packet loss.*
 
