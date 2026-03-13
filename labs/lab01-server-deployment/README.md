@@ -54,3 +54,10 @@ The Ubuntu Server installation was verified using the `lsb_release -a` command. 
 ![Network Configuration](./images/network-config.png)
 
 *Figure 2: Output of the `ip a` command showing the active network interface (enp0s8) and assigned IP address (10.0.2.15) from the NAT network.*
+
+
+### Internet Connectivity Test
+
+![Internet Connectivity](./images/internet-connectivity.png)
+
+*Figure 3: Successful internet connectivity verification using `ping google.com`. The server receives replies from external hosts with 0% packet loss.*
