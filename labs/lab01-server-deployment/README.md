@@ -34,15 +34,10 @@ Network Type: NAT Adapter
 
 ---
 
-## Verification
-
-The server successfully connected to the internet and downloaded system updates.
-
----
-
 ## Screenshots
 
-Ubuntu installation  
-Network configuration  
-Ping test  
-System update
+### Ubuntu Installation Verification
+![Ubuntu Installation](images/ubuntu-install.png)
+
+The Ubuntu Server installation was verified using the `lsb_release -a` command.
+This confirms that the system is running Ubuntu successfully inside the virtual machine.
