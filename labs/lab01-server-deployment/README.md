@@ -37,7 +37,7 @@ Network Type: NAT Adapter
 ## Screenshots
 
 ### Ubuntu Installation Verification
-![Ubuntu Installation](images/ubuntu-install.png)
+![Ubuntu Installation](./images/ubuntu-install.png)
 
 The Ubuntu Server installation was verified using the `lsb_release -a` command.
 This confirms that the system is running Ubuntu successfully inside the virtual machine.
