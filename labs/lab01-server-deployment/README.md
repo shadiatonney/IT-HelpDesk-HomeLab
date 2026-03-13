@@ -47,3 +47,10 @@ lsb_release -a
 *Figure 1: Ubuntu Server running in VirtualBox after installation. The `lsb_release -a` command confirms the operating system version.*
 
 The Ubuntu Server installation was verified using the `lsb_release -a` command. This confirms that the system is running Ubuntu successfully inside the virtual machine.
+
+
+### Network Configuration Verification
+
+![Network Configuration](./images/network-config.png)
+
+*Figure 2: Output of the `ip a` command showing the active network interface (enp0s8) and assigned IP address (10.0.2.15) from the NAT network.*
