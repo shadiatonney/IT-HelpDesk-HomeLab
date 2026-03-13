@@ -29,9 +29,12 @@ Network Type: NAT Adapter
 ---
 
 ## Commands Used
+
+```
 sudo apt update
 sudo apt install lsb-release
 lsb_release -a
+```
 
 ---
 
