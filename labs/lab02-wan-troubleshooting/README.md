@@ -71,3 +71,19 @@ The `traceroute` command revealed the network path between the internal server a
 The `nslookup` command verified that DNS services are functioning correctly by resolving the domain name **google.com** into its corresponding IP address.
 
 These results confirm that the server is able to communicate with external internet services without network configuration issues.
+
+
+
+
+## Key Takeaways
+
+This lab demonstrates how basic network troubleshooting tools can be used to diagnose WAN connectivity issues.
+
+Key skills practiced in this lab include:
+
+- Testing internet connectivity using `ping`
+- Analysing network paths using `traceroute`
+- Verifying DNS resolution using `nslookup`
+- Documenting network diagnostics with screenshots
+
+These tools are commonly used by IT Help Desk and Network Engineers to quickly identify connectivity problems in enterprise environments.
