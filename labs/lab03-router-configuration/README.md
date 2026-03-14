@@ -36,3 +36,14 @@ Figure 1: Windows Server virtual machine used for enterprise router configuratio
 ---
 
 ## Commands Used
+ipconfig
+route print
+ping 8.8.8.8
+tracert google.com
+
+
+---
+
+## Screenshots
+
+
