@@ -52,3 +52,12 @@ Packets were transmitted and received successfully, indicating that the network 
 <img src="./images/ping-test.png" width="700">
 
 Figure 1: Successful network connectivity verification using the `ping` command to communicate with Google's servers.
+
+### Network Path Analysis using Traceroute
+
+<img src="./images/traceroute-test.png" width="700">
+
+Figure 2: Network route analysis using the `traceroute` command to identify hops between the server and Google's infrastructure.
+
+The traceroute output shows the path packets take from the Ubuntu server to the destination host.  
+The first hop represents the VirtualBox NAT gateway (10.0.2.2), while subsequent hops are hidden due to NAT network configuration used in the virtual lab environment.
