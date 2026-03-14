@@ -36,14 +36,31 @@ Figure 1: Windows Server virtual machine used for enterprise router configuratio
 ---
 
 ## Commands Used
+```
 ipconfig
 route print
 ping 8.8.8.8
 tracert google.com
 
-
+```
 ---
 
 ## Screenshots
+### IP Configuration Verification
+
+<img src="./images/route-table.png" width="700">
+
+The routing table was examined using the `route print` command in Windows Server.
+
+This table shows how the operating system decides where to forward network traffic.
+
+The default route entry:
+
+```
+0.0.0.0 → 10.0.2.2
+```
 
 
+indicates that all traffic destined for external networks is forwarded to the default gateway.
+
+This confirms that the server correctly uses the configured router to reach external networks such as the internet.
