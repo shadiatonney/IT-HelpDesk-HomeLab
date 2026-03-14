@@ -1,12 +1,21 @@
-# Lab 3 — Windows Server Network Configuration & Gateway Verification
+# Lab 3 — Enterprise Router Configuration
 
 ## Scenario
 
 Southern Star Logistics Pty Ltd recently deployed a new Windows Server in their internal infrastructure.
 
-Users reported that the server must access external services such as cloud platforms, updates, and remote systems. The IT department must verify that the server has correct IP configuration and gateway settings to communicate outside the local network.
+The server must communicate with the enterprise router (default gateway) in order to reach external networks and internet services.
 
-As a Junior IT Engineer, I verified the network configuration and routing table of the Windows Server.
+The IT team must verify that the server has correct network configuration and routing information.
+
+---
+
+## Lab Objectives
+
+• Verify IP configuration  
+• Validate default gateway (enterprise router)  
+• Inspect routing table  
+• Test connectivity across the network  
 
 ---
 
@@ -22,20 +31,8 @@ Host System: macOS
 
 <img src="./images/windows-server-environment.png" width="700">
 
-Figure 1: Windows Server running inside a virtual machine used for network configuration testing.
+Figure 1: Windows Server virtual machine used for enterprise router configuration testing.
 
 ---
 
 ## Commands Used
-
-ipconfig
-route print
-ping google.com
-tracert google.com
-
-
----
-
-## Screenshots
-
-
