@@ -40,6 +40,34 @@ dig google.com
 ---
 
 ## Screenshots
+### WAN Connectivity Test (Ping)
+
+<img src="./images/ping-test.png" width="700">
+
+Figure 1: Ping test verifying connectivity between the Ubuntu server and Google's external servers over the WAN.
+
+### WAN Route Analysis (Traceroute)
+
+<img src="./images/traceroute-test.png" width="700">
+
+Figure 2: Traceroute command showing the network path between the Ubuntu server and Google's servers across multiple routers on the WAN.
 
 
+### DNS Resolution Test (nslookup)
 
+<img src="./images/nslookup-test.png" width="700">
+
+Figure 3: nslookup command verifying DNS resolution by translating the domain name google.com into its corresponding IP address.
+
+
+## Verification
+
+The WAN troubleshooting tests confirmed that the Ubuntu server has full internet connectivity and proper DNS resolution.
+
+The `ping` command successfully transmitted packets to Google's servers with no packet loss, confirming stable network connectivity.
+
+The `traceroute` command revealed the network path between the internal server and external internet hosts, demonstrating how packets travel through multiple routers across the WAN.
+
+The `nslookup` command verified that DNS services are functioning correctly by resolving the domain name **google.com** into its corresponding IP address.
+
+These results confirm that the server is able to communicate with external internet services without network configuration issues.
